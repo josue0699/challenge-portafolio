@@ -40,9 +40,31 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    background-color: lightblue;
+}
 
-section.menu{
+.menu__header{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
 
+.menu__header img{
+    width: 30px;
+    height: 30px;
+    margin: 0 30px 0 0;
+}
+
+header .menu__list{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*Sección Title*/
